@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		B4949B711B04AA7500201F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4949B701B04AA7500201F0E /* main.m */; };
 		B4949B741B04AA7500201F0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4949B731B04AA7500201F0E /* AppDelegate.m */; };
-		B4949B771B04AA7500201F0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4949B761B04AA7500201F0E /* ViewController.m */; };
 		B4949B7A1B04AA7500201F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4949B781B04AA7500201F0E /* Main.storyboard */; };
 		B4949B7C1B04AA7500201F0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4949B7B1B04AA7500201F0E /* Images.xcassets */; };
 		B4949B7F1B04AA7500201F0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4949B7D1B04AA7500201F0E /* LaunchScreen.xib */; };
 		B4949B8B1B04AA7500201F0E /* MilaStripeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4949B8A1B04AA7500201F0E /* MilaStripeViewTests.m */; };
+		B4949B961B04AA8900201F0E /* MilaMekoStripeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4949B951B04AA8900201F0E /* MilaMekoStripeViewController.m */; };
+		B4949B9B1B04ABE800201F0E /* MilaMekoStripeViewContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4949B9A1B04ABE800201F0E /* MilaMekoStripeViewContentController.m */; };
+		B4949B9C1B04ABE800201F0E /* MilaMekoStripeViewContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4949B9A1B04ABE800201F0E /* MilaMekoStripeViewContentController.m */; };
+		B4949B9F1B04B5E800201F0E /* UIImage+imageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B4949B9E1B04B5E800201F0E /* UIImage+imageColor.m */; };
+		B4949BA01B04B5E800201F0E /* UIImage+imageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B4949B9E1B04B5E800201F0E /* UIImage+imageColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,18 @@
 		B4949B701B04AA7500201F0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4949B721B04AA7500201F0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4949B731B04AA7500201F0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B4949B751B04AA7500201F0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B4949B761B04AA7500201F0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B4949B791B04AA7500201F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4949B7B1B04AA7500201F0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B4949B7E1B04AA7500201F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B4949B841B04AA7500201F0E /* MilaStripeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilaStripeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4949B891B04AA7500201F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4949B8A1B04AA7500201F0E /* MilaStripeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MilaStripeViewTests.m; sourceTree = "<group>"; };
+		B4949B941B04AA8900201F0E /* MilaMekoStripeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MilaMekoStripeViewController.h; sourceTree = "<group>"; };
+		B4949B951B04AA8900201F0E /* MilaMekoStripeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MilaMekoStripeViewController.m; sourceTree = "<group>"; };
+		B4949B991B04ABE800201F0E /* MilaMekoStripeViewContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MilaMekoStripeViewContentController.h; sourceTree = "<group>"; };
+		B4949B9A1B04ABE800201F0E /* MilaMekoStripeViewContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MilaMekoStripeViewContentController.m; sourceTree = "<group>"; };
+		B4949B9D1B04B5E800201F0E /* UIImage+imageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+imageColor.h"; sourceTree = "<group>"; };
+		B4949B9E1B04B5E800201F0E /* UIImage+imageColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imageColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +89,11 @@
 		B4949B6D1B04AA7500201F0E /* MilaStripeView */ = {
 			isa = PBXGroup;
 			children = (
+				B4949BA21B04BB2000201F0E /* Circle */,
+				B4949BA11B04BB0400201F0E /* 3D */,
+				B4949B981B04ABBA00201F0E /* 2D */,
 				B4949B721B04AA7500201F0E /* AppDelegate.h */,
 				B4949B731B04AA7500201F0E /* AppDelegate.m */,
-				B4949B751B04AA7500201F0E /* ViewController.h */,
-				B4949B761B04AA7500201F0E /* ViewController.m */,
 				B4949B781B04AA7500201F0E /* Main.storyboard */,
 				B4949B7B1B04AA7500201F0E /* Images.xcassets */,
 				B4949B7D1B04AA7500201F0E /* LaunchScreen.xib */,
@@ -96,6 +105,8 @@
 		B4949B6E1B04AA7500201F0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B4949B9D1B04B5E800201F0E /* UIImage+imageColor.h */,
+				B4949B9E1B04B5E800201F0E /* UIImage+imageColor.m */,
 				B4949B6F1B04AA7500201F0E /* Info.plist */,
 				B4949B701B04AA7500201F0E /* main.m */,
 			);
@@ -117,6 +128,39 @@
 				B4949B891B04AA7500201F0E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4949B971B04ABAE00201F0E /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				B4949B941B04AA8900201F0E /* MilaMekoStripeViewController.h */,
+				B4949B951B04AA8900201F0E /* MilaMekoStripeViewController.m */,
+			);
+			name = Parent;
+			sourceTree = "<group>";
+		};
+		B4949B981B04ABBA00201F0E /* 2D */ = {
+			isa = PBXGroup;
+			children = (
+				B4949B971B04ABAE00201F0E /* Parent */,
+				B4949B991B04ABE800201F0E /* MilaMekoStripeViewContentController.h */,
+				B4949B9A1B04ABE800201F0E /* MilaMekoStripeViewContentController.m */,
+			);
+			name = 2D;
+			sourceTree = "<group>";
+		};
+		B4949BA11B04BB0400201F0E /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 3D;
+			sourceTree = "<group>";
+		};
+		B4949BA21B04BB2000201F0E /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Circle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4949B771B04AA7500201F0E /* ViewController.m in Sources */,
+				B4949B9F1B04B5E800201F0E /* UIImage+imageColor.m in Sources */,
+				B4949B961B04AA8900201F0E /* MilaMekoStripeViewController.m in Sources */,
 				B4949B741B04AA7500201F0E /* AppDelegate.m in Sources */,
+				B4949B9B1B04ABE800201F0E /* MilaMekoStripeViewContentController.m in Sources */,
 				B4949B711B04AA7500201F0E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4949B9C1B04ABE800201F0E /* MilaMekoStripeViewContentController.m in Sources */,
 				B4949B8B1B04AA7500201F0E /* MilaStripeViewTests.m in Sources */,
+				B4949BA01B04B5E800201F0E /* UIImage+imageColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
